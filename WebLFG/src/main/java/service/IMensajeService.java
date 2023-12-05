@@ -4,8 +4,15 @@ import java.util.List;
 
 import com.example.demo.dto.Mensaje;
 
-
 public interface IMensajeService {
-	public List<Mensaje> obtenerTodosLosMensajes();
-	
+
+	List<Mensaje> obtenerTodosLosMensajes();
+
+	Mensaje obtenerMensajePorId(Long id);
+
+	Mensaje crearMensaje(Mensaje mensaje);
+
+	Mensaje actualizarMensaje(Long id, Mensaje mensaje);
+
+	void eliminarMensaje(Long id);
 }
