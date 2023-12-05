@@ -3,7 +3,7 @@ package com.example.demo.controller;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 import com.example.demo.dto.Partida;
-import service.IPartidaService;
+import com.example.demo.service.IPartidaService;
 import java.util.List;
 
 @RestController
